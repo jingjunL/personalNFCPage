@@ -53,8 +53,21 @@
 
       .identity {
         display: grid;
+        justify-items: center;
         gap: 10px;
         margin-bottom: 26px;
+        text-align: center;
+      }
+
+      .avatar {
+        width: 132px;
+        height: 132px;
+        border: 4px solid #ffffff;
+        border-radius: 50%;
+        box-shadow: 0 14px 34px rgba(35, 31, 24, 0.18);
+        object-fit: cover;
+        object-position: center;
+        background: #eef4f4;
       }
 
       .eyebrow {
@@ -173,6 +186,11 @@
           padding: 26px 18px 20px;
         }
 
+        .avatar {
+          width: 118px;
+          height: 118px;
+        }
+
         .link {
           grid-template-columns: 38px 1fr;
         }
@@ -192,6 +210,13 @@
     <main aria-label="Contact card for Jingjun Li">
       <section class="card">
         <div class="identity">
+          <img
+            class="avatar"
+            src="assets/profile.jpg"
+            alt="Portrait of Jingjun Li"
+            width="512"
+            height="512"
+          >
           <p class="eyebrow">Digital contact card</p>
           <h1>Jingjun Li</h1>
           <p class="subtitle">Tap a link below to get in touch or view my academic profile.</p>

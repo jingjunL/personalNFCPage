@@ -13,6 +13,12 @@ The first draft includes these contact links:
 
 The email button uses `mailto:`, so a visitor's phone should open their email app directly.
 
+## Profile photo
+
+The profile photo is stored at `assets/profile.jpg`. It is a compressed square crop made from `Jingjun_photos_latest.jpg` for fast loading on mobile.
+
+To replace it later, add a new square image at the same path and keep the filename `profile.jpg`.
+
 ## Deploy options
 
 Good free options:
