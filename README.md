@@ -7,11 +7,13 @@ This is a tiny static contact page for an NFC business card. The NFC card should
 The first draft includes these contact links:
 
 - Email: `jingjun.li@hw.ac.uk`
+- Phone / WhatsApp / Signal: `+44 7350 150819`
+- WeChat: `IkBenLJ`
 - LinkedIn: `https://www.linkedin.com/in/jingjunli/`
 - Google Scholar: `https://scholar.google.com/citations?user=O_RLjvQAAAAJ&hl=en&inst=16061989973938494330`
 - University profile: `https://researchportal.hw.ac.uk/en/persons/jingjun-li/`
 
-The email button uses `mailto:`, so a visitor's phone should open their email app directly.
+The email button uses `mailto:`, so a visitor's phone should open their email app directly. The `Save my contact` button downloads `jingjun-li.vcf`, which stores the main contact details for phone contact apps.
 
 ## Profile photo
 
