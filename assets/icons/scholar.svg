@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Google Scholar">
+  <defs>
+    <linearGradient id="cap" x1="36" x2="220" y1="47" y2="149" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4285f4"/>
+      <stop offset="1" stop-color="#2f66c9"/>
+    </linearGradient>
+    <linearGradient id="head" x1="82" x2="174" y1="132" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6ca3ff"/>
+      <stop offset="1" stop-color="#4285f4"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="38" fill="#fff"/>
+  <path fill="url(#cap)" d="M128 24 20 108l108 84 108-84L128 24Z"/>
+  <path fill="#79a7f7" d="M61 136v42l67 54 67-54v-42l-67 52-67-52Z"/>
+  <circle cx="128" cy="162" r="58" fill="url(#head)"/>
+  <path fill="#9fc2ff" d="M70 162a58 58 0 0 0 116 0H70Z" opacity=".65"/>
+</svg>
