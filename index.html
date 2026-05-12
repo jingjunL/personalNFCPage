@@ -346,7 +346,17 @@
         }
 
         .share-prompt {
+          gap: 0;
+          font-size: 0.72rem;
+        }
+
+        .share-prompt span,
+        .share-prompt svg {
           display: none;
+        }
+
+        .share-prompt::before {
+          content: "Share";
         }
 
         .avatar-ring {
