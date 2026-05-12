@@ -1,17 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Heriot-Watt University">
-  <defs>
-    <linearGradient id="metal" x1="58" x2="198" y1="28" y2="232" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f4f4f4"/>
-      <stop offset=".36" stop-color="#9f9f9f"/>
-      <stop offset=".68" stop-color="#ededed"/>
-      <stop offset="1" stop-color="#6f6f6f"/>
-    </linearGradient>
-  </defs>
-  <rect width="256" height="256" rx="38" fill="#fff"/>
-  <path fill="url(#metal)" stroke="#3e3e3e" stroke-width="7" d="M48 35h160v83c0 65-37 100-80 118-43-18-80-53-80-118V35Z"/>
-  <path fill="none" stroke="#4c4c4c" stroke-width="7" d="M128 35v194M48 93h160"/>
-  <path fill="none" stroke="#555" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" d="M82 126c20-14 41-5 38 18-2 15-15 22-29 18m23-48c-16 7-22 21-20 42m-23-12c15 2 26-5 33-18m-2 44c-2 16-10 29-21 40m27-27c-14 0-23 10-30 22"/>
-  <path fill="none" stroke="#555" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" d="M149 58h40v30h-40zM155 68h28M155 78h28"/>
-  <path fill="none" stroke="#555" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" d="M154 133h46M161 151h32M171 117l18 52M189 117l-18 52"/>
-  <path fill="none" stroke="#555" stroke-width="6" d="M64 58h50M64 75h50"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="University">
+  <rect width="256" height="256" rx="38" fill="#ffffff"/>
+  <path fill="#166d6b" d="M128 35 40 84v20h176V84L128 35Z"/>
+  <path fill="#eef4f4" d="M128 58 72 89h112l-56-31Z"/>
+  <path fill="#166d6b" d="M55 113h25v73H55v-73Zm40 0h25v73H95v-73Zm40 0h25v73h-25v-73Zm40 0h25v73h-25v-73Z"/>
+  <path fill="#166d6b" d="M43 196h170v18H43v-18Zm-12 28h194v18H31v-18Z"/>
+  <path fill="#ffffff" d="M66 125h8v49h-8v-49Zm40 0h8v49h-8v-49Zm40 0h8v49h-8v-49Zm40 0h8v49h-8v-49Z" opacity=".48"/>
 </svg>
