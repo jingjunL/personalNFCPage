@@ -1,22 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Outlook">
   <defs>
-    <linearGradient id="back" x1="93" x2="204" y1="42" y2="166" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0f6cbd"/>
-      <stop offset=".54" stop-color="#26a4e8"/>
-      <stop offset="1" stop-color="#42d9f5"/>
+    <linearGradient id="sheetA" x1="94" x2="205" y1="42" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#066bb8"/>
+      <stop offset=".52" stop-color="#1596dc"/>
+      <stop offset="1" stop-color="#35c6ec"/>
     </linearGradient>
-    <linearGradient id="env" x1="96" x2="218" y1="132" y2="226" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#28a8ea"/>
+    <linearGradient id="sheetB" x1="150" x2="228" y1="48" y2="174" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37d5f3"/>
+      <stop offset="1" stop-color="#0086d1"/>
+    </linearGradient>
+    <linearGradient id="envelope" x1="72" x2="229" y1="126" y2="221" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2db7f2"/>
       <stop offset="1" stop-color="#0078d4"/>
     </linearGradient>
   </defs>
-  <rect width="256" height="256" rx="38" fill="#fff"/>
-  <rect x="86" y="34" width="112" height="120" rx="12" fill="url(#back)"/>
-  <rect x="116" y="34" width="42" height="120" fill="#2489ca" opacity=".72"/>
-  <rect x="158" y="34" width="40" height="120" fill="#34c2ef" opacity=".9"/>
-  <path fill="url(#env)" d="M79 112h137c7 0 13 6 13 13v75c0 12-10 22-22 22H88c-12 0-22-10-22-22v-75c0-7 6-13 13-13Z"/>
-  <path fill="#84d9ff" d="m66 126 80 54 83-55v77c0 11-9 20-20 20H86c-11 0-20-9-20-20v-76Z" opacity=".92"/>
-  <path fill="#0078d4" d="M64 126h166l-84 58-82-58Z"/>
-  <rect x="27" y="78" width="106" height="106" rx="14" fill="#0078d4"/>
-  <path fill="#fff" d="M80 102c24 0 40 17 40 39s-16 39-40 39-40-17-40-39 16-39 40-39Zm0 18c-12 0-20 9-20 21s8 21 20 21 20-9 20-21-8-21-20-21Z"/>
+  <rect width="256" height="256" rx="40" fill="#fff"/>
+  <rect x="98" y="36" width="112" height="122" rx="13" fill="url(#sheetA)"/>
+  <rect x="137" y="36" width="36" height="122" fill="#1b7fc5" opacity=".7"/>
+  <rect x="173" y="36" width="37" height="122" rx="0" fill="url(#sheetB)"/>
+  <path fill="url(#envelope)" d="M71 116h144c9 0 16 7 16 16v68c0 13-11 24-24 24H79c-13 0-24-11-24-24v-68c0-9 7-16 16-16Z"/>
+  <path fill="#67cef6" d="m55 132 88 58 88-58v70c0 12-10 22-22 22H77c-12 0-22-10-22-22v-70Z"/>
+  <path fill="#0078d4" d="M55 132h176l-88 62-88-62Z"/>
+  <rect x="25" y="72" width="112" height="112" rx="17" fill="#0078d4"/>
+  <path fill="#fff" d="M81 98c25 0 42 18 42 43s-17 43-42 43-42-18-42-43 17-43 42-43Zm0 20c-13 0-21 10-21 23s8 23 21 23 21-10 21-23-8-23-21-23Z"/>
 </svg>
