@@ -220,7 +220,7 @@
       .link {
         min-height: 58px;
         display: grid;
-        grid-template-columns: 42px 1fr auto;
+        grid-template-columns: 52px 1fr auto;
         align-items: center;
         gap: 12px;
         border: 1px solid var(--line);
@@ -245,7 +245,7 @@
       }
 
       .icon {
-        width: 42px;
+        width: 52px;
         height: 42px;
         border-radius: 8px;
         display: grid;
@@ -253,6 +253,22 @@
         background: #eef4f4;
         color: var(--accent);
         font-weight: 800;
+      }
+
+      .logo-icon {
+        background: #ffffff;
+      }
+
+      .logo-icon img {
+        width: 28px;
+        height: 28px;
+        display: block;
+        object-fit: contain;
+      }
+
+      .logo-icon.university img {
+        width: 44px;
+        height: auto;
       }
 
       .text {
@@ -288,6 +304,10 @@
         color: var(--accent-ink);
       }
 
+      .primary .logo-icon {
+        background: #ffffff;
+      }
+
       .primary .hint,
       .primary .arrow {
         color: color-mix(in srgb, var(--accent-ink) 86%, transparent);
@@ -312,7 +332,7 @@
         }
 
         .link {
-          grid-template-columns: 38px 1fr;
+          grid-template-columns: 46px 1fr;
         }
 
         .quick-contact {
@@ -326,8 +346,18 @@
         }
 
         .icon {
-          width: 38px;
+          width: 46px;
           height: 38px;
+        }
+
+        .logo-icon img {
+          width: 24px;
+          height: 24px;
+        }
+
+        .logo-icon.university img {
+          width: 38px;
+          height: auto;
         }
 
         .arrow {
@@ -387,7 +417,9 @@
           <div class="copy-status" data-copy-status aria-live="polite"></div>
 
           <a class="link primary" href="mailto:jingjun.li@hw.ac.uk?subject=Hello%20Jingjun%20Li">
-            <span class="icon" aria-hidden="true">@</span>
+            <span class="icon logo-icon" aria-hidden="true">
+              <img src="https://cdn.simpleicons.org/microsoftoutlook/0078D4" alt="">
+            </span>
             <span class="text">
               <span class="label">Email</span>
               <span class="hint">jingjun.li@hw.ac.uk</span>
@@ -396,7 +428,9 @@
           </a>
 
           <a class="link" href="https://www.linkedin.com/in/jingjunli/" target="_blank" rel="noopener noreferrer">
-            <span class="icon" aria-hidden="true">in</span>
+            <span class="icon logo-icon" aria-hidden="true">
+              <img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="">
+            </span>
             <span class="text">
               <span class="label">LinkedIn</span>
               <span class="hint">Professional profile</span>
@@ -405,7 +439,9 @@
           </a>
 
           <a class="link" href="https://scholar.google.com/citations?user=O_RLjvQAAAAJ&amp;hl=en&amp;inst=16061989973938494330" target="_blank" rel="noopener noreferrer">
-            <span class="icon" aria-hidden="true">G</span>
+            <span class="icon logo-icon" aria-hidden="true">
+              <img src="https://cdn.simpleicons.org/googlescholar/4285F4" alt="">
+            </span>
             <span class="text">
               <span class="label">Google Scholar</span>
               <span class="hint">Publications and citations</span>
@@ -414,7 +450,9 @@
           </a>
 
           <a class="link" href="https://researchportal.hw.ac.uk/en/persons/jingjun-li/" target="_blank" rel="noopener noreferrer">
-            <span class="icon" aria-hidden="true">HW</span>
+            <span class="icon logo-icon university" aria-hidden="true">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Heriot-Watt_University_logo.svg/320px-Heriot-Watt_University_logo.svg.png" alt="">
+            </span>
             <span class="text">
               <span class="label">University Profile</span>
               <span class="hint">School personal page</span>
